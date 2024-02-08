@@ -1,0 +1,93 @@
+.mynavbar {
+    background-color: rgb(220, 242, 241);
+}
+.ssk-logo{
+      height: 80px;
+      font-weight: 80px;
+      margin-left: 10px;
+      margin-right: 10px;
+}
+/* .card-style {
+    background: linear-gradient(300deg, #00bfff, #4cf6ff,  rgb(54, 84, 134));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  } */
+
+
+.font-style-nav-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-intro {
+    background-color: rgb(127, 199, 217);
+}
+
+.say-hii {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.75rem;
+}
+
+.my-name {
+    color: rgb(15, 16, 53);
+    font-family: 'Bangers', cursive;
+}
+
+.profile-photo {
+    height: 150px;
+    width: 150px;
+
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-style {
+    background-color: rgb(54, 84, 134);
+}
+
+.short-des-about-me {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #EDD40C;
+    padding: 20px;
+
+}
+.call-me{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.its-ssk{
+    font-size: large;
+}
+.card-design-bottom{
+    background-color:  rgb(127, 199, 217);
+    align-items: center;
+    text-align: center;
+}
+.additional{
+    height: 75px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+
+.my-footer{
+    background-color:
+        rgb(15, 16, 53);
+        color: white;
+}
+.footer-content{
+    color: white;
+}
