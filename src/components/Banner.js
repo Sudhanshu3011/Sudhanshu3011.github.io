@@ -89,7 +89,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Full Stack Developer"];
+  const toRotate = [" "];
   const period = 2000;
 
   useEffect(() => {
@@ -136,12 +136,11 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
                     {`Hi! I'm Sudhanshu `} 
-                    <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer" ]'>
-                      <span className="wrap">{text}</span>
-                    </span>
+                   
+                  
                   </h1>
                   <p>
-                    Studying at Vishwakarma Government Engineering College, I'm a second-year student pursuing computer engineering. Proficient in full-stack development, data structures, databases, and various programming languages, I exhibit a comprehensive skill set in the field.
+                    Studying at Vishwakarma Government Engineering College, I'm a Third-year student pursuing computer engineering. Proficient in full-stack development, data structures, databases, and various programming languages, I exhibit a comprehensive skill set in the field.
                   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                 </div>

@@ -70,6 +70,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg';
 import { HashLink } from 'react-router-hash-link';
 
 export const NavBar = () => {
@@ -112,9 +113,10 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="LinkedIn" /></a>
-              <a href="#"><img src={navIcon2} alt="GitHub" /></a>
-              <a href="#"><img src={navIcon3} alt="Instagram" /></a>
+              <a href="http://www.linkedin.com/in/sudhanshu-shekhar-kumar"><img src={navIcon1} alt="LinkedIn" /></a>
+              <a href="https://github.com/Sudhanshu3011"><img src={navIcon2} alt="GitHub" /></a>
+              <a href="https://www.instagram.com/kr.s_shekhar/"><img src={navIcon3} alt="Instagram" /></a>
+              <a href="https://x.com/Sshekhar__11"><img src={navIcon4} alt="Twitter" /></a>
             </div>
             <HashLink to='#connect'>
               <button className="vvd"><span>Let’s Connect</span></button>
